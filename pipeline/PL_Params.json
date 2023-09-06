@@ -1,0 +1,20 @@
+{
+	"name": "PL_Params",
+	"properties": {
+		"activities": [
+			{
+				"name": "Filter1",
+				"type": "Filter",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
+		"parameters": {
+			"Array": {
+				"type": "array",
+				"defaultValue": "['aa','bb']"
+			}
+		},
+		"annotations": []
+	}
+}
