@@ -1,0 +1,9 @@
+{
+	"name": "adf06septsumit",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "35b31353-be6c-455d-ad87-c5ca38e0af33",
+		"tenantId": "dce87315-8ffa-4a01-ab40-0de5a7214b2f"
+	}
+}
