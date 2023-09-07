@@ -1,23 +1,19 @@
 {
-	"name": "DelimitedText2",
+	"name": "Json1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_Blob2",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Json",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"container": "output"
-			},
-			"columnDelimiter": ",",
-			"escapeChar": "\\",
-			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			}
 		},
-		"schema": []
+		"schema": {}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }

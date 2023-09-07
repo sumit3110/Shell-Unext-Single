@@ -2,17 +2,16 @@
 	"name": "DelimitedText1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "LS_Blob",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileName": "emp.txt",
-				"folderPath": "input",
-				"fileSystem": "container1"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "movies.csv",
+				"container": "input"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
@@ -21,7 +20,35 @@
 		},
 		"schema": [
 			{
-				"name": "Hi I am Sumit",
+				"name": "Film",
+				"type": "String"
+			},
+			{
+				"name": "Genre",
+				"type": "String"
+			},
+			{
+				"name": "Lead Studio",
+				"type": "String"
+			},
+			{
+				"name": "Audience score %",
+				"type": "String"
+			},
+			{
+				"name": "Profitability",
+				"type": "String"
+			},
+			{
+				"name": "Rotten Tomatoes %",
+				"type": "String"
+			},
+			{
+				"name": "Worldwide Gross",
+				"type": "String"
+			},
+			{
+				"name": "Year",
 				"type": "String"
 			}
 		]
