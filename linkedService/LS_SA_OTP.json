@@ -1,0 +1,11 @@
+{
+	"name": "LS_SA_OTP",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"containerUri": "https://sa08septsumit.blob.core.windows.net/output",
+			"authenticationType": "Anonymous"
+		}
+	}
+}
