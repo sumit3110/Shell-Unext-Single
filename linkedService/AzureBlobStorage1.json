@@ -1,0 +1,11 @@
+{
+	"name": "AzureBlobStorage1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"containerUri": "https://sa08septsumit.blob.core.windows.net/output",
+			"authenticationType": "Anonymous"
+		}
+	}
+}
